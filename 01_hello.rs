@@ -15,6 +15,9 @@ fn main() {
     println!("Hello World!"); // println! is a macro that prints text to console
     println!("I'm a Rustacean");
 
+    let str = "This is fun!";
+    println!("String: {}", str);
+
     let x = 5 + /*90 + */ 5;
     println!("value of x = {}", x);
 }
